@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  background-color: #363062;
+}
+
+h1{
+  font-size: 2.5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 1% auto;
+  position: relative;
+}
+.key,.score {
+  /* outline: none; */
+  border: 10px solid #404B69;
+  font-size: 4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1.7;
+
+  color: #DA0463;
+  border-radius: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.rematch{
+  width: 800px;
+  height: 50px;
+  font-size: 1rem;
+  line-height: 3;
+}
+.score{
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  font-size: 2rem;
+  background-color: white;
+  line-height: 3.3;
+  left: 165px;
+  top: 278px;
+}
+.p2{
+  left: 1030px;
+}
